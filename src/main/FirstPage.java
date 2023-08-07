@@ -44,7 +44,7 @@ public class FirstPage {
         first.pack();
         first.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         first.setLocationRelativeTo(null);
-        first.setVisible(true);
+        first.setVisible(true); 
 
     }
 

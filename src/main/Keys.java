@@ -168,6 +168,7 @@ public class Keys implements KeyListener, Runnable {
         }
 
     }
+<<<<<<< HEAD
 
     public void checkCollision() {
         int catX = cat.getX(), catY = cat.getY();
@@ -179,6 +180,18 @@ public class Keys implements KeyListener, Runnable {
             if ((catY + 32 < plankY1 || catY + 32 > plankY2) || (catX + 20 <= plankX1 || catX >= plankX2)
                     || (catY + 52 > 355)) {
                 System.out.println(" CatY+32 " + (catY + 32) + " PlankY1 " + (plankY1));
+=======
+    public void checkCollision(){
+        int catX=cat.getX(), catY= cat.getY();
+        int plankX1=plank.getX(), plankY1=plank.getY();
+        int plankX2=plank.getX()+Plank.getIconWidth(), plankY2=plank.getY()+ Plank.getIconHeight();
+      //  System.out.println("CATY "+catY+"plankY1 "+plankY1+" CatX "+ (catX)+" Plankx1 "+(plankX1+52));
+        if( catY>85 && ((catY+52)<520) ){
+            if((catY+32<plankY1 || catY+32>plankY2) || (catX+20<=plankX1 || catX>=plankX2) ||(catY+52>355)) {
+                System.out.println(" CatY+32 "+ (catY+32)+" PlankY1 "+(plankY1));
+                frame.dispose();
+                new LastPage();
+>>>>>>> 2e51e9411184605f31f4a413e5c95fa83dd4722b
                 game = false;
             }
             if ((catY + 32 > plankY1 || catY + 32 < plankY2) || (catX + 20 >= plankX1 || catX <= plankX2)) {
