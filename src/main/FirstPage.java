@@ -14,8 +14,8 @@ public class FirstPage {
 
     JLabel button, bg = new JLabel();
     JFrame first;
-    ImageIcon bag = new ImageIcon("Brave-Cat/src/main/First/First Page.png");
-    ImageIcon btn = new ImageIcon("Brave-Cat/src/main/First/Button.png");
+    ImageIcon bag = new ImageIcon("src/main/First/First Page.png");
+    ImageIcon btn = new ImageIcon("src/main/First/Button.png");
 
     public FirstPage() {
         game = false;
