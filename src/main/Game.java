@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 
 public class Game {
 
-    public static ImageIcon image = new ImageIcon("DraftGame/src/main/Char/Front.png");
+    public static ImageIcon image = new ImageIcon("Brave-Cat/src/main/Char/Front.png");
     static final int screeenWidth = 768, screenHeight = 620;
     public static JLabel cat, plank, river;
     public static JFrame frame;
