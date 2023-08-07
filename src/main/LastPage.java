@@ -10,8 +10,8 @@ import static main.Game.*;
 public class LastPage {
 
     JLabel exit, background;
-    ImageIcon Exit = new ImageIcon("Brave-Cat/src/main/LastPage/Exit.png");
-    ImageIcon bg= new ImageIcon("Brave-Cat/src/main/LastPage/Last Page.png");
+    ImageIcon Exit = new ImageIcon("src/main/LastPage/Exit.png");
+    ImageIcon bg= new ImageIcon("src/main/LastPage/Last Page.png");
   //  ImageIcon Replay= new ImageIcon("DraftGame/src/main/LastPage/Replay.png");
 
     JFrame last;
