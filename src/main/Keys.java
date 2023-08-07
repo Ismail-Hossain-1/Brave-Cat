@@ -193,16 +193,16 @@ public class Keys implements KeyListener, Runnable {
     }
 
     public void getImage(){
-        Front = new ImageIcon("src/main/Char/Front.png");
-        Back = new ImageIcon("src/main/Char/Back.png");
-        Left = new ImageIcon("src/main/Char/Left.png");
-        Right = new ImageIcon("src/main/Char/Right.png");
-        Plank = new ImageIcon("src/main/Char/Plank.png");
-        River = new ImageIcon("src/main/Char/Background.png");
-        L = new ImageIcon("src/main/gifs/L.gif");
-        R = new ImageIcon("src/main/gifs/R.gif");
-        F = new ImageIcon("src/main/gifs/F.gif");
-        B = new ImageIcon("src/main/gifs/B.gif");
+        Front = new ImageIcon("Brave-Cat/src/main/Char/Front.png");
+        Back = new ImageIcon("Brave-Cat/src/main/Char/Back.png");
+        Left = new ImageIcon("Brave-Cat/src/main/Char/Left.png");
+        Right = new ImageIcon("Brave-Cat/src/main/Char/Right.png");
+        Plank = new ImageIcon("Brave-Cat/src/main/Char/Plank.png");
+        River = new ImageIcon("Brave-Cat/src/main/Char/Background.png");
+        L = new ImageIcon("Brave-Cat/src/main/gifs/L.gif");
+        R = new ImageIcon("Brave-Cat/src/main/gifs/R.gif");
+        F = new ImageIcon("Brave-Cat/src/main/gifs/F.gif");
+        B = new ImageIcon("Brave-Cat/src/main/gifs/B.gif");
 
     }
 
