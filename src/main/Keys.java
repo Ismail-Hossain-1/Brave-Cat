@@ -176,7 +176,7 @@ public class Keys implements KeyListener, Runnable {
       //  System.out.println("CATY "+catY+"plankY1 "+plankY1+" CatX "+ (catX)+" Plankx1 "+(plankX1+52));
         if( catY>85 && ((catY+52)<520) ){
             if((catY+32<plankY1 || catY+32>plankY2) || (catX+20<=plankX1 || catX>=plankX2) ||(catY+52>355)) {
-                System.out.println(" CatY+32 "+ (catY+32)+" PlankY1 "+(plankY1));
+              //  System.out.println(" CatY+32 "+ (catY+32)+" PlankY1 "+(plankY1));
                 frame.dispose();
                 new LastPage();
                 game = false;
@@ -195,16 +195,16 @@ public class Keys implements KeyListener, Runnable {
     }
 
     public void getImage(){
-        Front = new ImageIcon("Brave-Cat/src/main/Char/Front.png");
-        Back = new ImageIcon("Brave-Cat/src/main/Char/Back.png");
-        Left = new ImageIcon("Brave-Cat/src/main/Char/Left.png");
-        Right = new ImageIcon("Brave-Cat/src/main/Char/Right.png");
-        Plank = new ImageIcon("Brave-Cat/src/main/Char/Plank.png");
-        River = new ImageIcon("Brave-Cat/src/main/Char/Background.png");
-        L = new ImageIcon("Brave-Cat/src/main/gifs/L.gif");
-        R = new ImageIcon("Brave-Cat/src/main/gifs/R.gif");
-        F = new ImageIcon("Brave-Cat/src/main/gifs/F.gif");
-        B = new ImageIcon("Brave-Cat/src/main/gifs/B.gif");
+        Front = new ImageIcon("src/main/Char/Front.png");
+        Back = new ImageIcon("src/main/Char/Back.png");
+        Left = new ImageIcon("src/main/Char/Left.png");
+        Right = new ImageIcon("src/main/Char/Right.png");
+        Plank = new ImageIcon("src/main/Char/Plank.png");
+        River = new ImageIcon("src/main/Char/Background.png");
+        L = new ImageIcon("src/main/gifs/L.gif");
+        R = new ImageIcon("src/main/gifs/R.gif");
+        F = new ImageIcon("src/main/gifs/F.gif");
+        B = new ImageIcon("src/main/gifs/B.gif");
 
     }
 
